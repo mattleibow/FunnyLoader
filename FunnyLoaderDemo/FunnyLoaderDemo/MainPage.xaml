@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:fl="clr-namespace:FunnyLoader;assembly=FunnyLoader"
+             xmlns:local="clr-namespace:FunnyLoaderDemo"
+             x:Class="FunnyLoaderDemo.MainPage"
+             Title="FunnyLoader">
+
+    <Grid Padding="12">
+
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Center" Spacing="12">
+
+            <ActivityIndicator HorizontalOptions="FillAndExpand" HeightRequest="32" IsRunning="True" />
+
+            <fl:FunnyLoaderLabel HorizontalOptions="Center"
+                                 IsRunning="{Binding IsRunning}" IsRandom="{Binding IsRandom}" />
+
+            <BoxView HeightRequest="1" HorizontalOptions="FillAndExpand" Color="Gray" />
+
+            <StackLayout Orientation="Horizontal" Spacing="6" HorizontalOptions="Center">
+                <Label Text="Running:" VerticalOptions="Center" />
+                <Switch IsToggled="{Binding IsRunning}" VerticalOptions="Center" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Spacing="6" HorizontalOptions="Center">
+                <Label Text="Randomize:" VerticalOptions="Center" />
+                <Switch IsToggled="{Binding IsRandom}" VerticalOptions="Center" />
+            </StackLayout>
+
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>

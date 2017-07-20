@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Messages" xml:space="preserve">
+    <value>Reticulating Splines
+Gathering Goblins
+Lifting Weights
+Pushing Pixels
+Formulating Plan
+Taking Break
+Herding Ducks
+Feeding Developers
+Fishing for Change
+Searching for Dancers
+Waking Up Gnomes
+Playing Chess
+Building Igloos
+Converting Celsius
+Scanning Power Level
+Delivering Presents
+Finding Dragon Balls
+Firing Lasers
+Party Rocking
+Walking up to the club
+Righting wrongs
+Building Lego
+Assembling Avengers
+Turning Down for What
+Reaching 88mph
+Pondering Existence
+Battling Robots
+Smashing Pots
+Stomping Goombas
+Doing Donuts
+Entering Danger Zone
+Talking to Mom
+Chasing Squirrels
+Setting Phasers to Stun
+Doing Macarena
+Dropping Bass
+Removing Biebers
+Performing Magic
+Autotuning Kanye
+Waxing Legs
+Invading Space
+Levelling Up
+Generating Map
+Conquering France
+Piloting Tardis
+Destroying Deathstar
+Typing Letters
+Making Code
+Running Marathon
+Shooting Pucks
+Kicking Field Goals
+Fighting Bad Guys
+Driving Batmobile
+Warming Up Kryptonite
+Popping Popcorn
+Creating Hashes
+Spawning Boss
+Evaluating Life Choices
+Eating Ramen
+Re-heating Leftovers
+Petting Kittens
+Walking Puppies
+Catching Z’s
+Jumping Rope
+Declaring Variables
+Yessing Doge
+Recycling Memes
+Tipping Fedora
+Walking Runway
+Counting to Ten
+Booting Native Client
+Launching App
+Drawing Icons
+Reading Instructions
+Finding Screws
+Completing Puzzles
+Generating Volume Slider
+Brightening Orange
+Ordering Pizza
+You Look Good Today
+Clearing Screen
+Stirring Pot
+Mashing Potatoes
+Banishing Evil
+Taking Selfies
+Accelerating Disks
+Benching Network
+Rocking Out
+Grinding Mage
+Studying Calculus
+Playing N64
+Racing GoKarts
+Defeating Creepers
+Blowing Game Cartridge
+Choosing Pikachu
+Postponing Half Life 3
+Rushing Zergs
+Rescuing Hostages
+Typing Konami Code
+Building Snowman
+Letting it Snow
+Burning HDMI Cords
+Applying Filters
+Taking Screenshot
+Shaving Mustache
+Growing Beard
+Baking Muffins
+Iterating Javascript
+Attracting Venture Capital
+Disrupting Industry
+Tweeting Hashtags
+Encrypting Lines
+Obfuscating C
+Enhancing License Plate
+Running Diagnostic
+Warming Hyperdrive
+Calibrating Positions
+Calculating Percentages
+Revoking Licenses
+Shedding Core
+Dampening Gravity
+Increasing Power
+Checking Sensors
+Indexing RSS
+Programming PCI
+Determining USB Position
+Connecting to Bus
+Inverting Ports
+Bypassing Capacitor
+Reversing Bandwidth Throttle
+Testing AI
+Virtualizing Microchip
+Emulating Playstation
+Synthesizing Drivers
+Structuring Chlorophyll
+Watering Plants
+Ingesting Caffeine
+Chugging Redbull
+Parsing System
+Navigating Arrays
+Searching Google
+Overflowing Stack
+Compiling Binaries
+Answering Emails
+Migrating CSS
+Backing Up Primaries
+Rendering Dialogs
+Reading RSS
+Compressing Data
+Rejecting Cloud
+Evaluating Weissman Score
+Purging Local Storage
+Leaking Memory
+Scripting Python
+Grunting Ruby
+Benching RAM
+Determining Auxiliaries
+Jiggling Internet
+Ejecting Floppy
+Fluctuating Objects
+Spiking Reactor Core
+Firing Bosons
+Testing Processor
+Debugging Prompts
+Connecting Floats
+Rounding Integers
+Pronouncing Gigawatt
+Inverting Transponders
+Bypassing Silicon
+Raising Funds
+Caching Logs
+Dithering Broadband
+Eating Poutine
+Rolling Rims to Win
+Begging for Change
+Chasing Waterfalls
+Pumping Gas
+Emptying Pipes
+Hitting Piñata
+Unleashing Freedom
+Airbrushing Actors
+FIling Taxes
+Powering Mitochondria
+Calculating Qi charge
+Completing Geometry
+Turning in Algebra
+Solving for X
+Benching Wattage
+Kludging Playback Bar
+Stringifying Json
+Consuming Spaghetti Code
+Deleting Comments
+Transitioning to Django
+Learning to Code
+Battling Feature Creep
+Losing Flappy Bird
+Celebrating Good Times
+Sharpening Pencils
+Automating Processes
+Attacking Godzilla
+Carbonating Soda
+Thinking of Witty Text</value>
+  </data>
+</root>
