@@ -63,6 +63,7 @@ namespace FunnyLoader
 		// lazy load so we can get some sort of semi-random
 		private readonly Lazy<Random> randomizer = new Lazy<Random>(() => new Random());
 		private int position = -1;
+		private bool isAnimating = false;
 
 		public FunnyLoaderLabel()
 		{
@@ -118,8 +119,13 @@ namespace FunnyLoader
 
 		private async void StartAnimation()
 		{
+			if (isAnimating)
+				return;
+
 			while (IsRunning)
 			{
+				isAnimating = true;
+
 				ChangeText();
 
 				if (IsRunning)
@@ -130,6 +136,8 @@ namespace FunnyLoader
 
 				if (IsRunning)
 					await this.FadeTo(0.0, 500, Easing.SinIn);
+
+				isAnimating = false;
 			}
 		}
 
